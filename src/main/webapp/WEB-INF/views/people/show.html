@@ -10,7 +10,7 @@
 <div th:if="${books.isEmpty()}">
     <p>Person didn't get any books</p>
 </div>
-
+<br><br>
 <div th:if="${!books.isEmpty()}">
     <b>Books:</b>
     <table th:each="book : ${books}">
